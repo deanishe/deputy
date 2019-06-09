@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ErrorHandling	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^type ErrorHandling int$/;"	type	line:18
+that	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^\/\/ Deputy is a type that runs Commands with advanced options not available from$/;"	type	line:34
+Deputy	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^type Deputy struct {$/;"	type	line:36
+Run	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func (d Deputy) Run(cmd *exec.Cmd) error {$/;"	func	line:58
+makePipes	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func (d *Deputy) makePipes(cmd *exec.Cmd) error {$/;"	func	line:83
+err	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^		var err error$/;"	var	line:85
+err	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^		var err error$/;"	var	line:92
+dualWriter	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func dualWriter(w1, w2 io.Writer) io.Writer {$/;"	func	line:101
+run	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func (d Deputy) run(cmd *exec.Cmd) error {$/;"	func	line:111
+err	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^	var err error$/;"	var	line:122
+start	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func (d Deputy) start(cmd *exec.Cmd, errs chan<- error) error {$/;"	func	line:138
+wait	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func (d Deputy) wait(cmd *exec.Cmd, errs <-chan error) error {$/;"	func	line:152
+err1	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^	var err1, err2 error$/;"	var	line:157
+firstErr	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func firstErr(errs ...error) error {$/;"	func	line:168
+pipe	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func pipe(log func([]byte), r io.Reader, errs chan<- error) {$/;"	func	line:177
+timeoutErr	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^type timeoutErr struct {$/;"	type	line:187
+IsTimeout	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func (t timeoutErr) IsTimeout() bool {$/;"	func	line:191
+Error	/Users/daj/src/github.com/deanishe/deputy/deputy.go	/^func (t timeoutErr) Error() string {$/;"	func	line:195
+suite	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^type suite struct{}$/;"	type	line:20
+_	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^var _ = gc.Suite(&suite{})$/;"	var	line:22
+Test	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func Test(t *testing.T) {$/;"	func	line:24
+hasTimeout	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^type hasTimeout interface {$/;"	type	line:28
+TestRunTimeout	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func (*suite) TestRunTimeout(c *gc.C) {$/;"	func	line:32
+TestRunNoTimeout	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func (*suite) TestRunNoTimeout(c *gc.C) {$/;"	func	line:47
+TestStdoutErr	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func (*suite) TestStdoutErr(c *gc.C) {$/;"	func	line:55
+TestStdoutOutput	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func (*suite) TestStdoutOutput(c *gc.C) {$/;"	func	line:65
+TestStderrOutput	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func (*suite) TestStderrOutput(c *gc.C) {$/;"	func	line:78
+TestStderrErr	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func (*suite) TestStderrErr(c *gc.C) {$/;"	func	line:92
+TestLogs	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func (*suite) TestLogs(c *gc.C) {$/;"	func	line:103
+logout	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^	var logout []byte$/;"	var	line:110
+logerr	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^	var logerr []byte$/;"	var	line:111
+maker	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^type maker struct {$/;"	type	line:122
+make	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func (m maker) make() *exec.Cmd {$/;"	func	line:137
+TestHelperProcess	/Users/daj/src/github.com/deanishe/deputy/deputy_test.go	/^func TestHelperProcess(*testing.T) {$/;"	func	line:149
+Example	/Users/daj/src/github.com/deanishe/deputy/example_test.go	/^func Example() {$/;"	func	line:14
+deputy [![GoDoc](https://godoc.org/github.com/juju/deputy?status.svg)](https://godoc.org/github.com/juju/deputy) [![Build Status](https://drone.io/github.com/juju/deputy/status.png)](https://drone.io/github.com/juju/deputy/latest) [![Coverage Status](https://coveralls.io/repos/juju/deputy/badge.svg?branch=master)](https://coveralls.io/r/juju/deputy?branch=master)	/Users/daj/src/github.com/deanishe/deputy/README.md	/^# deputy [![GoDoc](https:\/\/godoc.org\/github.com\/juju\/deputy?status.svg)](https:\/\/godoc.org\/github.com\/juju\/deputy) [![Build Status](https:\/\/drone.io\/github.com\/juju\/deputy\/status.png)](https:\/\/drone.io\/github.com\/juju\/deputy\/latest) [![Coverage Status](https:\/\/coveralls.io\/repos\/juju\/deputy\/badge.svg?branch=master)](https:\/\/coveralls.io\/r\/juju\/deputy?branch=master)$/;"	function	line:1
+Example	/Users/daj/src/github.com/deanishe/deputy/README.md	/^## Example$/;"	function	line:8
+type Deputy	/Users/daj/src/github.com/deanishe/deputy/README.md	/^## type Deputy$/;"	function	line:24
+func (Deputy) Run	/Users/daj/src/github.com/deanishe/deputy/README.md	/^### func (Deputy) Run$/;"	function	line:45
+type ErrorHandling	/Users/daj/src/github.com/deanishe/deputy/README.md	/^## type ErrorHandling$/;"	function	line:56
